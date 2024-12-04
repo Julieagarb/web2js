@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/page3.css">
+    <title>infoAdicionais</title>
+</head>
+<body>
+    <div id="interface">
+
+        <header>
+          <section  class="fundomenu">
+            <nav>
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Details.html">Detalhes</a></li>
+                <li><a href="info.html">Mais Informações</a></li>
+                <li><a href="Galeria.html">Galeria</a></li>
+              </ul>
+            </nav>
+          </section>
+          
+        </header>
+    
+      </div>
+
+      <main >
+
+        <div class="corpo">
+            <div class="card">
+                <div class="page-body">
+                <img width="350px" src="assets/images/Velho_fazendo_comidinha_gotosa.gif" alt="comidas india">
+                <div id="texto">
+                <p>A Índia é famosa pelo uso generoso de especiarias, como cominho, coentro, cúrcuma, gengibre, pimenta e cardamomo. Elas são fundamentais para criar sabores complexos. Cereais e Leguminosas, Arroz e trigo (principalmente na forma de pães como naan e roti) são a base da alimentação. As leguminosas, como lentilhas e grão-de-bico, são também muito consumidas, oferecendo proteínas essenciais. O Vegetarianismo, Devido a razões culturais e religiosas, muitos indianos são vegetarianos. Isso resultou em uma vasta gama de pratos vegetarianos criativos e saborosos.</p>
+                </div>
+                </div>
+                <br/>
+                <button  onclick="ocultarMostrar()">Ocultar/Mostrar</button>
+            </div>
+            
+            <div class="card">
+                <div class="page-body">  
+                <img width="350px" src="assets/images/turistas.jpeg" alt="dicas">
+                <div id="texto2">
+                <p class="ocultar">algumas dicas breves para aproveitar ao máximo sua viagem à Índia Rajasthan: Explore Jaipur, Udaipur e Jodhpur para palácios e fortalezas. Taj Mahal em Agra: Não perca essa maravilha mundial.Prove pratos típicos de cada região. Não deixe de experimentar street food, mas escolha locais populares e limpos. Trem O sistema ferroviário indiano é extenso e uma ótima maneira de viajar. Reserve com antecedência.Riqueza de opções de transporte local, Utilize riquexós, tuk-tuks e serviços de carona.Respeite os costumes locais, como tirar os sapatos ao entrar em templos. </p>
+                </div>
+                </div>
+                <br/>
+                <button  onclick="ocultarMostrar2()">Ocultar/Mostrar</button>
+            </div>
+
+
+            <div class="card">
+                <div class="page-body">
+                <img width="350px" src="assets/images/curiosidades-sobre-a-India.webp" alt="curiosidades">
+                <div id="texto3">
+                <p class="ocultar">Diversidade Linguística: A Índia tem 22 línguas oficiais reconhecidas na Constituição e mais de 1.600 idiomas diferentes falados em todo o país. População Gigantesca: É o segundo país mais populoso do mundo, com mais de 1,4 bilhão de habitantes, representando cerca de 17% da população global. Berço do Yoga: O yoga se originou na Índia há mais de 5.000 anos e é uma parte importante da cultura e espiritualidade indianas.Festivais Coloridos: A Índia celebra uma infinidade de festivais, como Diwali (festival das luzes) e Holi (festival das cores), que são vibrantes e atraem pessoas de todas as partes do país. </p>
+                </div>
+                </div>
+            <br/>
+            <button  onclick="ocultarMostrar3()">Ocultar/Mostrar</button>
+            </div>
+        </div>
+
+      </main>
+
+      <script src="assets/JS/zoom.js"></script>
+      <script>
+          document.querySelector( '.page-body' ).addEventListener( 'click', function( event ) {
+              event.preventDefault();
+              zoom.to({ element: event.target });
+          } );
+      </script>
+
+<script src="assets/JS/script.js">
+
+
+
+
+</script>
+
+    
+    
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <footer>
+        <Span>OBRIGADA - शुक्रिया</Span>
+    </footer>
+</body>
+</html>

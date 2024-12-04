@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background-color:#333333
+    
+}
+header{
+    max-width: none; 
+}
+section.imgfundo2{
+    background-repeat: no-repeat;
+    background-image: url(../images/headerimg.webp);
+    height: 350px;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+nav ul{
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 0 15px;
+}
+nav ul li a{
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    border-radius: 30px;
+    transition: 0.6s;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
+    justify-content: flex-end;
+    display: flex;
+}
+
+nav ul li a:hover{
+    background-color: #fd8b1f
+}
+
+.card-body1{
+    width: 300px;
+    text-align:justify ;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #ff5e81;
+    color: #f0f0f0
+    
+}
+
+.card-body2{
+    width: 300px;
+    text-align: justify;
+    background-color: rgb(155, 50, 187);
+    color: white;
+    font-size: 16px;
+}
+
+.card-body3{
+    width: 300px;
+    text-align: justify;
+    background-color: rgb(48, 223, 57);
+    color:#000;
+    font-size: 16px;
+    text-align: justify;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+.card-body {
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: justify;
+    padding: 10px;
+    align-items: center;
+}
+
+.grade{
+    display: flex;
+    gap: 200px;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+footer{
+    padding-top: 50px;
+    background-color:rgb(255, 139, 30)
+}
+
+span{
+    background-color: rgb(66, 255, 19);
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+}
